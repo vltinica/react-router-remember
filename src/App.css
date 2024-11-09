@@ -1,16 +1,28 @@
 * {
     padding: 0;
     margin: 0;
+    background-color:rgb(190, 235, 190);
 }
 
 .App {
     margin: 20px auto;
     text-align: center;
+    color: rgb(0, 43, 0);
+}
+
+.active {
+    color: lightcoral;
+    text-decoration: none;
 }
 
 a {
-    color: darkgreen;
+    color: rgb(0, 43, 0);
     font-size: 25px;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(4, 197, 117);
 }
 
 nav a {
