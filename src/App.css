@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color:rgb(190, 235, 190);
+    background-color: rgb(190, 235, 190);
 }
 
 .App {
@@ -17,18 +17,24 @@
 
 .courses-container {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    max-width: 600px; 
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
     margin: 10px auto;
     padding: 20px;
+}
+
+.coursesContainerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
 }
 
 .divCourseLink {
     /* width: 100%;  */
     margin: 15px 0;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
