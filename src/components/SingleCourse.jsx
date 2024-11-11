@@ -27,5 +27,7 @@ const SingleCourse = () => {
     </div>
   );
 };
+  
 
 export default SingleCourse;
+
